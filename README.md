@@ -10,6 +10,15 @@ This repository contains a Dockerized version of Caddy v2 with the Cloudflare DN
 - **CI/CD with GitHub Actions**: Automated builds and deployments using GitHub Actions.
 - **Automated Dependency Updates**: Keep dependencies up-to-date with Renovate.
 
+## Docker Image Availability
+
+The Docker image for this project is available at:
+
+- **Latest Version**: `ghcr.io/jkpe/caddy-cloudflare:latest`
+- **Specific Version (v2.8.4)**: `ghcr.io/jkpe/caddy-cloudflare:v2.8.4`
+
+These images are built for both `linux/arm64` and `linux/amd64` architectures.
+
 ## Getting Started
 
 ### Prerequisites
