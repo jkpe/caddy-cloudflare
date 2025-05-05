@@ -1,12 +1,13 @@
 # Caddy with Cloudflare DNS Module
 
-This repository contains a Dockerized version of Caddy v2 with the Cloudflare DNS provider module (`caddy-dns/cloudflare`). This setup enables automatic HTTPS with DNS-based challenge support, using Cloudflare as the DNS provider.
+This repository contains a Dockerized version of Caddy v2 with the Cloudflare DNS provider module ([`caddy-dns/cloudflare`](https://github.com/caddy-dns/cloudflare)) and the MaxMind geolocation module ([`caddy-maxmind-geolocation`](https://github.com/porech/caddy-maxmind-geolocation)). This setup enables automatic HTTPS with DNS-based challenge support, using Cloudflare as the DNS provider, and provides geolocation capabilities.
 
 ## Features
 
 - **Automatic HTTPS**: Caddy automatically manages SSL/TLS certificates.
 - **Cloudflare DNS Integration**: Easily manage DNS records through the Cloudflare API.
-- **Dockerized**: Run Caddy in a container with a pre-built Cloudflare DNS module.
+- **MaxMind Geolocation**: Access geolocation data for requests using MaxMind's database.
+- **Dockerized**: Run Caddy in a container with pre-built Cloudflare DNS and MaxMind geolocation modules.
 - **CI/CD with GitHub Actions**: Automated builds and deployments using GitHub Actions.
 - **Automated Dependency Updates**: Keep dependencies up-to-date with Renovate.
 
